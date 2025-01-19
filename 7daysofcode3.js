@@ -21,7 +21,7 @@ while (preguntarNumero !== "salir") {
     intentos++;
     //Si ya se usaron los 3 intentos, terminamos el juego!
     if (intentos >3) {
-        alert ("Se te acabaron los intentos master!");
+        alert (`Se te acabaron los intentos master!, el numero era ${numeroAdivinar}`);
         break;
     }
 
