@@ -1,4 +1,4 @@
-let numeroAdivinar = 7;
+let numeroAdivinar = Math.floor(Math.random()*12)+1;
 let preguntarNumero = prompt("Adivina, ¿En qué número estoy pensando? (Escribe 'salir' para terminar)");
 intentos = 1;
 
